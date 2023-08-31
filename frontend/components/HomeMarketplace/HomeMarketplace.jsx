@@ -128,9 +128,7 @@ function HomeMarketplace() {
         data-aos="flip-left"
       >
         <p>
-          Welcome to the virtual world&apos;s one-stop-shop for the very best
-          digital assets. Here you can <br />
-          search and buy creators&apos;s ASSETS with FTM.
+          Search and support a Sesh with $FTM on Fantom blockchain.
         </p>
 
         <div className="rowX nft-mg">

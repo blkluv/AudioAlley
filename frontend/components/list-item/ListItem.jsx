@@ -322,7 +322,7 @@ export default function ListItem() {
       <div className="song_preview container">
         <div className="song_left ">
           <section>
-            <h5>Add song Info</h5>
+            <h5>Add story Info</h5>
             <h2> {formData.name ? formData.name : <> Untitled</>}</h2>
           </section>
         </div>
@@ -340,8 +340,8 @@ export default function ListItem() {
               <div>
                 <div className="rowx">
                   <div className="col50">
-                    <h2>Song Details</h2>
-                    <label htmlFor="Title ">Song Title</label>
+                    <h2>Story Details</h2>
+                    <label htmlFor="Title ">Story Title</label>
                     <input
                       id="name"
                       placeholder="e.g. Love is in the air"
@@ -375,10 +375,10 @@ export default function ListItem() {
                       <option value="Fantasy">Fantasy</option>
                       <option value="Romance">Romance</option>
                       <option value="Spiritual">Spiritual</option>
-                      <option value="Vampire">Vampire</option>
+                      <option value="History">History</option>
                       <option value="Random">Random</option>
                       <option value="Education">Education</option>
-                      <option value="Politics">Politics</option>
+                      <option value="Sports">Sports</option>
                       <option value="Religion">Religion</option>
                     </select>
                     <label
@@ -412,7 +412,7 @@ export default function ListItem() {
                       onChange={(handlePriceChange, handlePriceError)}
                     />
 
-                    <label htmlFor="">Artist Name </label>
+                    <label htmlFor="">Sesh Name </label>
                     <input
                       id="artistname"
                       placeholder="e.g. Olivia"
@@ -449,7 +449,7 @@ export default function ListItem() {
             {step === 2 && (
               <>
                 <section className=" nft_uploaded_image">
-                  <label htmlFor="Cover Image"> Upload Music</label>
+                  <label htmlFor="Cover Image"> Upload Story</label>
                   <input
                     id="file"
                     type="file"
@@ -474,7 +474,7 @@ export default function ListItem() {
 "
                 >
                   {" "}
-                  Lyrics
+                  Narrative
                 </label>{" "}
                 <div>
                   <ReactQuill

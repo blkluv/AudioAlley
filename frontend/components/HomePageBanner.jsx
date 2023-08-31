@@ -71,14 +71,15 @@ function HomePageBanner() {
       <div className="container rowX">
         <div className="col50 first-nft ">
           <h1 className="gather">
-            Explore NFTs artworks on our audio
+            Tell your Story as an NFT on our
             <span> streaming platform. </span>{" "}
           </h1>
           <p>
-            Welcome to Audio Alley, the premier platform for music artists to
-            showcase and sell their songs to a global audience. With our
-            easy-to-use interface and robust features, you'll have everything
-            you need to get your music out there and start earning money today.
+            Welcome to Story made with LUV NFT, the premier platform for you to
+            showcase and sell your story to a global audience. In ancient Egypt, 
+            also known as Kemet, storytellers were called "Sesh". These highly 
+            respected individuals had a vital role in recording and preserving 
+            the civilization's stories and knowledge. Earn money as Sesh today.
           </p>
           <div className="explore">
             <button className="buy-btn ">
@@ -87,13 +88,13 @@ function HomePageBanner() {
           </div>
           <div className="first-counter">
             <h2 className="works">
-              23 K+ <br /> <span> Music</span>
+              23 K+ <br /> <span> Stories</span>
             </h2>
             <h2 className="works">
-              20 K+ <br /> <span>Artist Profit</span>
+              20 K+ <br /> <span>Sesh Profit</span>
             </h2>
             <h2 className="works">
-              8 K+ <br /> <span>Artist</span>
+              8 K+ <br /> <span>Seshews</span>
             </h2>
           </div>
         </div>
@@ -110,9 +111,9 @@ function HomePageBanner() {
                 />
               </div>
               <div className="ending">
-                <h5>Song Title </h5>
+                <h5>Story Title </h5>
 
-                <h5>Song Price </h5>
+                <h5>Story Price </h5>
               </div>
               <div className="timer">
                 <p> {homeNft?.name}</p>
@@ -129,9 +130,9 @@ function HomePageBanner() {
                 <LoadingBox />
               </div>
               <div className="ending">
-                <h5>Song Title </h5>
+                <h5>Story Title </h5>
 
-                <h5>Song Price </h5>
+                <h5>Story Price </h5>
               </div>
               <div className="loading_timer">
                 <TextBox />

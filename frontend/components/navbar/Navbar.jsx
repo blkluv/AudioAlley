@@ -48,7 +48,7 @@ const Navbar = () => {
                       alt="AudioAlley Logo"
                     />
                     <span className="AudioAlley self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                      AudioAlley
+                      Story
                     </span>
                   </a>
                 </div>
@@ -126,7 +126,7 @@ const Navbar = () => {
                     className="flex items-center p-2 text-base font-normal rounded-lg dark:text-white "
                   >
                     <span className="flex-1 ml-3 whitespace-nowrap">
-                      Upload Music
+                      Upload A Story
                     </span>
                   </a>
                 </li>

@@ -187,15 +187,15 @@ export const FavouriteNFTs = () => {
             <div className="col50 fav">
               <h1>
                 Choose Your Favorite <br />
-                Art. If you want!
+                Story Cover. If you want!
               </h1>
               <h2>
-                Begin with the simplest and most secure stage to purchase <br />
-                and exchange advanced workmanship and NFTs
+                Create an eye-catching cover art that helps potential buyers<br /> 
+                understand what your story is about.
               </h2>
               <h2>
-                Audio Alley apires to recognize and reflect diverse voices by
-                taking songs to the world and unto the soul around the world.
+                Story made with LUV NFT was built to inspire and amplify 
+                diverse voices by sharing stories with the world.
               </h2>
             </div>
           </div>

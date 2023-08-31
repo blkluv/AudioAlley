@@ -76,11 +76,11 @@ function MyApp({ Component, pageProps }) {
           <Head>
             <meta
               name="description"
-              content="Audio Alley is the ultimate platform for music artists to showcase and sell their songs to a global audience. Upload your tracks and start earning today!"
+              content="Story made with LUV NFT is the ultimate platform for creators to showcase and sell their story to a global audience. Upload your story and start earning today!"
             />
 
             <link rel="shortcut icon" href="/assets/music logo.png" />
-            <title> Audio Alley</title>
+            <title> Story</title>
           </Head>
           <Navbar />
           <div>
