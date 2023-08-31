@@ -1,10 +1,18 @@
 // SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.4;
 
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol"; // Import the ERC20 contract
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+// Define the ERC20Token contract
+contract ERC20Token is ERC20 {
+    constructor() ERC20("Story", "LUV") {
+        _mint(msg.sender, 1000000 * (10**uint256(decimals())));
+    }
+}
+
 contract Vendor is Ownable {
-    ERC20Token theon;
+    ERC20Token private theon; // Update this to use your actual ERC20Token contract
     uint256 public tokensPerMatic = 100;
     event BuyTokens(
         address buyer,
@@ -12,8 +20,9 @@ contract Vendor is Ownable {
         uint256 amountOfTokens
     );
 
-    constructor(address tokenAddress) {
-        theon = ERC20Token(tokenAddress);
+    constructor() {
+        // Deploy and initialize your ERC20Token contract
+        theon = new ERC20Token();
     }
 
     function buyTokens() public payable returns (uint256 tokenAmount) {

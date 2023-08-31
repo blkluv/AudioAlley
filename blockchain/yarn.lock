@@ -767,55 +767,10 @@
     mcl-wasm "^0.7.1"
     rustbn.js "~0.2.0"
 
-"@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-darwin-arm64/-/solidity-analyzer-darwin-arm64-0.1.0.tgz"
-  integrity sha512-vEF3yKuuzfMHsZecHQcnkUrqm8mnTWfJeEVFHpg+cO+le96xQA4lAJYdUan8pXZohQxv1fSReQsn4QGNuBNuCw==
-
 "@nomicfoundation/solidity-analyzer-darwin-x64@0.1.0":
   version "0.1.0"
   resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-darwin-x64/-/solidity-analyzer-darwin-x64-0.1.0.tgz"
   integrity sha512-dlHeIg0pTL4dB1l9JDwbi/JG6dHQaU1xpDK+ugYO8eJ1kxx9Dh2isEUtA4d02cQAl22cjOHTvifAk96A+ItEHA==
-
-"@nomicfoundation/solidity-analyzer-freebsd-x64@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-freebsd-x64/-/solidity-analyzer-freebsd-x64-0.1.0.tgz"
-  integrity sha512-WFCZYMv86WowDA4GiJKnebMQRt3kCcFqHeIomW6NMyqiKqhK1kIZCxSLDYsxqlx396kKLPN1713Q1S8tu68GKg==
-
-"@nomicfoundation/solidity-analyzer-linux-arm64-gnu@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-arm64-gnu/-/solidity-analyzer-linux-arm64-gnu-0.1.0.tgz"
-  integrity sha512-DTw6MNQWWlCgc71Pq7CEhEqkb7fZnS7oly13pujs4cMH1sR0JzNk90Mp1zpSCsCs4oKan2ClhMlLKtNat/XRKQ==
-
-"@nomicfoundation/solidity-analyzer-linux-arm64-musl@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-arm64-musl/-/solidity-analyzer-linux-arm64-musl-0.1.0.tgz"
-  integrity sha512-wUpUnR/3GV5Da88MhrxXh/lhb9kxh9V3Jya2NpBEhKDIRCDmtXMSqPMXHZmOR9DfCwCvG6vLFPr/+YrPCnUN0w==
-
-"@nomicfoundation/solidity-analyzer-linux-x64-gnu@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-x64-gnu/-/solidity-analyzer-linux-x64-gnu-0.1.0.tgz"
-  integrity sha512-lR0AxK1x/MeKQ/3Pt923kPvwigmGX3OxeU5qNtQ9pj9iucgk4PzhbS3ruUeSpYhUxG50jN4RkIGwUMoev5lguw==
-
-"@nomicfoundation/solidity-analyzer-linux-x64-musl@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-x64-musl/-/solidity-analyzer-linux-x64-musl-0.1.0.tgz"
-  integrity sha512-A1he/8gy/JeBD3FKvmI6WUJrGrI5uWJNr5Xb9WdV+DK0F8msuOqpEByLlnTdLkXMwW7nSl3awvLezOs9xBHJEg==
-
-"@nomicfoundation/solidity-analyzer-win32-arm64-msvc@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-win32-arm64-msvc/-/solidity-analyzer-win32-arm64-msvc-0.1.0.tgz"
-  integrity sha512-7x5SXZ9R9H4SluJZZP8XPN+ju7Mx+XeUMWZw7ZAqkdhP5mK19I4vz3x0zIWygmfE8RT7uQ5xMap0/9NPsO+ykw==
-
-"@nomicfoundation/solidity-analyzer-win32-ia32-msvc@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-win32-ia32-msvc/-/solidity-analyzer-win32-ia32-msvc-0.1.0.tgz"
-  integrity sha512-m7w3xf+hnE774YRXu+2mGV7RiF3QJtUoiYU61FascCkQhX3QMQavh7saH/vzb2jN5D24nT/jwvaHYX/MAM9zUw==
-
-"@nomicfoundation/solidity-analyzer-win32-x64-msvc@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-win32-x64-msvc/-/solidity-analyzer-win32-x64-msvc-0.1.0.tgz"
-  integrity sha512-xCuybjY0sLJQnJhupiFAXaek2EqF0AP0eBjgzaalPXSNvCEN6ZYHvUzdA50ENDVeSYFXcUsYf3+FsD3XKaeptA==
 
 "@nomicfoundation/solidity-analyzer@^0.1.0":
   version "0.1.0"
@@ -862,7 +817,7 @@
     "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
 
-"@openzeppelin/contracts-upgradeable@*":
+"@openzeppelin/contracts-upgradeable@^4.8.0":
   version "4.8.0"
   resolved "https://registry.npmjs.org/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.8.0.tgz"
   integrity sha512-5GeFgqMiDlqGT8EdORadp1ntGF0qzWZLmEY7Wbp/yVhN7/B3NNzCxujuI77ktlyG81N3CUZP8cZe3ZAQ/cW10w==
@@ -2340,20 +2295,15 @@ bn.js@^4.1.0:
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
   integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
-bn.js@^4.10.0, bn.js@^4.11.1, bn.js@^4.4.0, bn.js@^4.8.0:
+bn.js@^4.10.0, bn.js@^4.11.1, bn.js@^4.11.8, bn.js@^4.4.0, bn.js@^4.8.0:
   version "4.11.9"
 
-bn.js@^4.11.0:
+bn.js@^4.11.0, bn.js@^4.11.8:
   version "4.12.0"
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
   integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
 bn.js@^4.11.6:
-  version "4.12.0"
-  resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
-  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
-
-bn.js@^4.11.8:
   version "4.12.0"
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
   integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
@@ -4087,7 +4037,7 @@ ethereum-common@0.2.0:
   resolved "https://registry.npmjs.org/ethereum-common/-/ethereum-common-0.2.0.tgz"
   integrity sha512-XOnAR/3rntJgbCdGhqdaLIxDLWKLmsZOGhHdBKadEr6gEnJLH52k93Ou+TUdFaPN3hJc3isBZBal3U/XZ15abA==
 
-ethereum-cryptography@^0.1.3:
+ethereum-cryptography@^0.1.3, ethereum-cryptography@0.1.3:
   version "0.1.3"
   resolved "https://registry.npmjs.org/ethereum-cryptography/-/ethereum-cryptography-0.1.3.tgz"
   integrity sha512-w8/4x1SGGzc+tO97TASLja6SLd3fRIK2tLVcV2Gx4IB21hE19atll5Cq9o3d0ZmAYC/8aw0ipieTSiekAea4SQ==
@@ -4117,27 +4067,6 @@ ethereum-cryptography@^1.0.3:
     "@noble/secp256k1" "1.6.3"
     "@scure/bip32" "1.1.0"
     "@scure/bip39" "1.1.0"
-
-ethereum-cryptography@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/ethereum-cryptography/-/ethereum-cryptography-0.1.3.tgz"
-  integrity sha512-w8/4x1SGGzc+tO97TASLja6SLd3fRIK2tLVcV2Gx4IB21hE19atll5Cq9o3d0ZmAYC/8aw0ipieTSiekAea4SQ==
-  dependencies:
-    "@types/pbkdf2" "^3.0.0"
-    "@types/secp256k1" "^4.0.1"
-    blakejs "^1.1.0"
-    browserify-aes "^1.2.0"
-    bs58check "^2.1.2"
-    create-hash "^1.2.0"
-    create-hmac "^1.1.7"
-    hash.js "^1.1.7"
-    keccak "^3.0.0"
-    pbkdf2 "^3.0.17"
-    randombytes "^2.1.0"
-    safe-buffer "^5.1.2"
-    scrypt-js "^3.0.0"
-    secp256k1 "^4.0.1"
-    setimmediate "^1.0.5"
 
 ethereum-waffle@^3.2.0, ethereum-waffle@^3.4.4:
   version "3.4.4"
@@ -4318,7 +4247,7 @@ ethereumjs-util@^5.2.0:
     rlp "^2.0.0"
     safe-buffer "^5.1.1"
 
-ethereumjs-util@^6.0.0, ethereumjs-util@^6.1.0, ethereumjs-util@^6.2.0, ethereumjs-util@^6.2.1, ethereumjs-util@6.2.1:
+ethereumjs-util@^6.0.0, ethereumjs-util@^6.1.0, ethereumjs-util@^6.2.0, ethereumjs-util@6.2.1:
   version "6.2.1"
   resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-6.2.1.tgz"
   integrity sha512-W2Ktez4L01Vexijrm5EB6w7dg4n/TgpoYU4avuT5T3Vmnw/eCRtiBrJfQYS/DCSvDIOLn2k57GcHdeBcgVxAqw==
@@ -4331,7 +4260,20 @@ ethereumjs-util@^6.0.0, ethereumjs-util@^6.1.0, ethereumjs-util@^6.2.0, ethereum
     ethjs-util "0.1.6"
     rlp "^2.2.3"
 
-ethereumjs-util@^7.0.10:
+ethereumjs-util@^6.2.1:
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-6.2.1.tgz"
+  integrity sha512-W2Ktez4L01Vexijrm5EB6w7dg4n/TgpoYU4avuT5T3Vmnw/eCRtiBrJfQYS/DCSvDIOLn2k57GcHdeBcgVxAqw==
+  dependencies:
+    "@types/bn.js" "^4.11.3"
+    bn.js "^4.11.0"
+    create-hash "^1.1.2"
+    elliptic "^6.5.2"
+    ethereum-cryptography "^0.1.3"
+    ethjs-util "0.1.6"
+    rlp "^2.2.3"
+
+ethereumjs-util@^7.0.10, ethereumjs-util@^7.0.3, ethereumjs-util@^7.1.0, ethereumjs-util@^7.1.5:
   version "7.1.5"
   resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-7.1.5.tgz"
   integrity sha512-SDl5kKrQAudFBUe5OJM9Ac6WmMyYmXX/6sTmLZ3ffG2eY6ZIGBes3pEDxNN6V72WyOw4CPD5RomKdsa8DAAwLg==
@@ -4350,39 +4292,6 @@ ethereumjs-util@^7.0.2:
     create-hash "^1.1.2"
     ethereum-cryptography "^0.1.3"
     ethjs-util "0.1.6"
-    rlp "^2.2.4"
-
-ethereumjs-util@^7.0.3:
-  version "7.1.5"
-  resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-7.1.5.tgz"
-  integrity sha512-SDl5kKrQAudFBUe5OJM9Ac6WmMyYmXX/6sTmLZ3ffG2eY6ZIGBes3pEDxNN6V72WyOw4CPD5RomKdsa8DAAwLg==
-  dependencies:
-    "@types/bn.js" "^5.1.0"
-    bn.js "^5.1.2"
-    create-hash "^1.1.2"
-    ethereum-cryptography "^0.1.3"
-    rlp "^2.2.4"
-
-ethereumjs-util@^7.1.0:
-  version "7.1.5"
-  resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-7.1.5.tgz"
-  integrity sha512-SDl5kKrQAudFBUe5OJM9Ac6WmMyYmXX/6sTmLZ3ffG2eY6ZIGBes3pEDxNN6V72WyOw4CPD5RomKdsa8DAAwLg==
-  dependencies:
-    "@types/bn.js" "^5.1.0"
-    bn.js "^5.1.2"
-    create-hash "^1.1.2"
-    ethereum-cryptography "^0.1.3"
-    rlp "^2.2.4"
-
-ethereumjs-util@^7.1.5:
-  version "7.1.5"
-  resolved "https://registry.npmjs.org/ethereumjs-util/-/ethereumjs-util-7.1.5.tgz"
-  integrity sha512-SDl5kKrQAudFBUe5OJM9Ac6WmMyYmXX/6sTmLZ3ffG2eY6ZIGBes3pEDxNN6V72WyOw4CPD5RomKdsa8DAAwLg==
-  dependencies:
-    "@types/bn.js" "^5.1.0"
-    bn.js "^5.1.2"
-    create-hash "^1.1.2"
-    ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
 ethereumjs-vm@^2.1.0:
